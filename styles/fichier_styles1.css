@@ -1,0 +1,66 @@
+
+*{
+    outline: 1px solid black;
+    outline-offset: -1px;
+}
+body{
+    background-color: var(--background-body);
+}
+:root{
+    --background-body: rgb(25 32 37) ;
+    --background-bouton: rgb(157, 180, 192);
+    --background-color3: rgb(92, 107, 115);
+    --text-color1: rgb(224, 251, 252);
+    --outline-color1: rgb(194, 223, 227);
+    
+}
+header {
+
+    background-color: var(--background-color3);
+    outline: 5px solid var(--outline-color1);
+    outline-offset: -5px;
+}
+
+ul{
+    display: flex;
+    gap: 100px;
+    list-style-type: none;
+    margin: 5vw;
+    padding: 5vw;
+    justify-content: center;
+    
+    
+}
+
+button{
+    background-color: var(--background-bouton);
+    color: black;
+    padding: auto;
+    margin: 0vh;
+    padding: 3vh;
+    
+
+}
+img{
+    width: 50vh;
+    height: 50vh;
+    outline: 5px solid var(--outline-color1);
+    outline-offset: -5px;
+}
+h1{
+    background-color: var(--background-color3);
+    color: var(--text-color1);
+}
+div{
+    display: flex;
+    margin: auto;
+    padding: auto;
+    gap: 0px;
+    background-color: var(--background-color3);
+    color: var(--text-color1);
+    outline: 5px solid var(--outline-color1);
+    outline-offset: -5px;
+}
+p{
+    
+}
